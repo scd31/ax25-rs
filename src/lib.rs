@@ -26,6 +26,9 @@ pub mod frame;
 /// Connect to a TNC and use it to send and receive frames.
 pub mod tnc;
 
+/// Create and receive stateful connections.
+pub mod connection;
+
 /// Interfacing with native AX.25 network interfaces on Linux.
 mod linux;
 
